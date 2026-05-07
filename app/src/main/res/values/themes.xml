@@ -1,7 +1,0 @@
-<resources>
-    <style name="Theme.GapCounter" parent="android:Theme.Material.Light.NoActionBar">
-        <item name="android:windowBackground">#080808</item>
-        <item name="android:statusBarColor">#080808</item>
-        <item name="android:navigationBarColor">#080808</item>
-    </style>
-</resources>
