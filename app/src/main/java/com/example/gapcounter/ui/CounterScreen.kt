@@ -17,14 +17,12 @@ import androidx.compose.ui.draw.alpha
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.text.font.FontFamily
-import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.font.FontFamilyimport androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.gapcounter.CounterUiState
 import com.example.gapcounter.ui.theme.*
-import kotlin.math.absoluteValue
 
 // ── Tela Principal ─────────────────────────────────────────────────────────────
 @Composable
@@ -35,10 +33,9 @@ fun CounterScreen(
     onReset: () -> Unit,
     onIncrement: () -> Unit,
     onDecrement: () -> Unit,
-    modifier: Modifier = Modifier,
 ) {
     Box(
-        modifier = modifier
+        modifier = Modifier
             .fillMaxSize()
             .background(BackgroundDeep)
     ) {
